@@ -1,0 +1,5 @@
+file = open ("registro.txt", "w")
+edad = int(input("Introduce tu edad"))
+edadS = str(edad)
+file.write("Edad: " + edadS)
+file.close()
