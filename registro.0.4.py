@@ -1,0 +1,5 @@
+file = open ("registro.txt", "w")
+promedio = float(input("Introduce tu promedio"))
+promedioS = str(promedio)
+file.write("Promedio: " + promedioS)
+file.close()
